@@ -207,7 +207,7 @@ iframe {
 
 .address-bar-input {
   opacity: 1;
-  background-color: white;
+  background-color: transparent;
   border: none;
   outline: none;
   color: white;
