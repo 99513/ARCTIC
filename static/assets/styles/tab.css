@@ -193,6 +193,7 @@ iframe {
   display: flex;
   align-items: center;
   background-color: #bbbbbb;
+  color: white;
   border-radius: 50px;
   padding: 15px;
   overflow: hidden;
