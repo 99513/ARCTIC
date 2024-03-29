@@ -30,7 +30,7 @@ body {
 }
 
 .nav {
-  background-color: var(--secondary-color);
+  background-color: white;
   padding: 1rem;
   transition: transform 0.5s ease;
   border-radius: 0 10px 10px 0;
