@@ -115,6 +115,7 @@ iframe {
   border: none;
   left: 0;
   top: 0;
+  overflow: hidden;
 }
 
 .toggle-nav-checkbox {
