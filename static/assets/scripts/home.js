@@ -8,7 +8,7 @@ try {
 
 if (!inFrame && !navigator.userAgent.includes('Firefox')) {
   const popup = open('about:blank', '_blank')
-  if (!popup || popup.closed) alert('Please allow popups and redirects.')
+  if (!popup || popup.closed) alert('Please allow redirects to cloak.')
   else {
     const doc = popup.document
     const iframe = doc.createElement('iframe')
@@ -30,7 +30,7 @@ if (!inFrame && !navigator.userAgent.includes('Firefox')) {
 
     doc.head.appendChild(link)
     doc.body.appendChild(iframe)
-    location.replace(localStorage.getItem('panicLink') || 'https://www.nasa.gov/')
+    location.replace(localStorage.getItem('panicLink') || 'https://classroom.google.com/')
   }
 }
 
@@ -59,10 +59,7 @@ document.onkeydown = function (evt) {
 }
 
 let splashtext = [
-  'Over 7 Million Users in 2023!',
-  'Fastest growing proxy server!',
-  'Made by Bubbo!',
-  'Check out discord.gg/interstellar :)',
+  'service by interstellar',
 ]
 
 document.getElementById('splash').innerText = splashtext[Math.floor(Math.random() * splashtext.length)]
