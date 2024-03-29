@@ -51,14 +51,6 @@ document.addEventListener('DOMContentLoaded', function (event) {
       }
     })
 
-    if (remainingTabs.length > 0) {
-      document.getElementById('iframe-add-tab').hidden = false
-    }
-
-    if (remainingTabs.length < 0) {
-      document.getElementById('iframe-add-tab').hidden = true
-    }
-
     newTab.appendChild(tabTitle)
     newTab.appendChild(closeButton)
     tabList.appendChild(newTab)
@@ -169,6 +161,8 @@ document.addEventListener('DOMContentLoaded', function (event) {
     container.classList.toggle('nav-closed')
   })
 })
+
+
 
 function reload() {
   const iframeContainer = document.getElementById('iframe-container')
