@@ -162,6 +162,21 @@ document.addEventListener('DOMContentLoaded', function (event) {
   })
 })
 
+document.addEventListener("DOMContentLoaded", function() {
+  var elementToCheck = document.getElementById("iframe");
+  var elementToEnable = document.getElementById("iframe-add-tab");
+
+  if (elementToCheck !== null && elementToEnable !== null) {
+      // Check if the elementToCheck is disabled
+      if (!elementToCheck.disabled) {
+          // Enable elementToEnable
+          elementToEnable.disabled = true;
+      }
+      else{
+        elementToEnable.disabled = false;
+      }
+  }
+});
 
 
 function reload() {
