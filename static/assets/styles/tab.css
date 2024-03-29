@@ -207,7 +207,7 @@ iframe {
 
 .address-bar-input {
   opacity: 1;
-  background-color: transparent;
+  background-color: white;
   border: none;
   outline: none;
   color: white;
@@ -219,7 +219,6 @@ iframe {
   transition:
     opacity 0.5s,
     width 0.5s;
-  lighting-color: white;
 }
 
 .address-bar-search-form {
