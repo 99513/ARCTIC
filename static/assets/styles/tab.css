@@ -62,7 +62,7 @@ body {
 #add-tab {
   padding: 0.5rem;
   cursor: pointer;
-  background-color: var(--accent-color);
+  background-color: #F8F8F8;
   color: var(--text-color);
   border: none;
   border-radius: 5px;
@@ -74,7 +74,7 @@ body {
   float: left;
   padding: 0.5rem;
   cursor: pointer;
-  background-color: var(--accent-color);
+  background-color: #F8F8F8;
   color: var(--text-color);
   border: none;
   border-radius: 5px;
@@ -83,7 +83,7 @@ body {
 }
 
 #nav-button:hover {
-  background-color: var(--hover-color);
+  background-color: #d3d3d3;
 }
 
 ul {
