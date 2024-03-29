@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
 
     newTab.classList.add('active')
 
-    newIframe.src = '/google-redirecter.html'
+    newIframe.src = '/a/hvtrs8%2F-wuw%2Cgmoelg.aoo%2F'
     newIframe.dataset.tabId = tabCounter
     newIframe.classList.add('active')
     iframeContainer.appendChild(newIframe)
