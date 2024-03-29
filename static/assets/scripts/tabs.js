@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
 })
 
 document.addEventListener("DOMContentLoaded", function() {
-  var elementToCheck = document.getElementById("iframe");
+  var elementToCheck = document.getElementById("iframe-container.iframe");
   var elementToEnable = document.getElementById("iframe-add-tab");
 
   if (elementToCheck !== null && elementToEnable !== null) {
