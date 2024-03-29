@@ -10,7 +10,7 @@ body {
   margin: 0;
   font-family: 'Roboto', Arial, sans-serif;
   position: relative;
-  background-color: var(--primary-color);
+  background-color: white;
   color: var(--text-color);
   overflow: hidden;
 }
