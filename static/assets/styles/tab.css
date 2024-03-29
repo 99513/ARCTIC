@@ -219,6 +219,7 @@ iframe {
   transition:
     opacity 0.5s,
     width 0.5s;
+  lighting-color: white;
 }
 
 .address-bar-search-form {
