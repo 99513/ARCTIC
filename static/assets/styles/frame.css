@@ -13,7 +13,7 @@ iframe {
   bottom: 0;
   left: 0;
   right: 0;
-  top: 0em;
+  top: 3em;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -24,7 +24,7 @@ iframe {
   right: 0;
   height: 3em;
   padding: 0 25px;
-  background: var(--main);
+  background: white;
   box-sizing: border-box;
   transition: 0.35s ease;
   width: fill;
