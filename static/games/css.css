@@ -85,6 +85,7 @@
   align-items: center;
   overflow-y: scroll; /* adds scrollbar */
   width: 100vw;
+  text-decoration: none;
   }
   
   .gamesL {
@@ -113,7 +114,7 @@
     align-items: center;
     font-style: normal;
     text-decoration: none;
-    transition: ease(0.5s);
+    transition: ease-in
   }
   
   .gameLINK:hover {
