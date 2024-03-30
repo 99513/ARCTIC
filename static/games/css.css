@@ -82,6 +82,7 @@
     flex-wrap: wrap;
     padding: 0 18px;
     justify-content: center;
+    top: 5vh;
     height: 100%;
     align-items: center;
     overflow-y: scroll; /* adds scrollbar */
