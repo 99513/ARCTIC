@@ -78,14 +78,15 @@
 
   .games {
     display: flex;
-  flex-wrap: wrap;
-  padding: 0 18px;
-  justify-content: center;
-  height: calc(100% - 5em);
-  align-items: center;
-  overflow-y: scroll; /* adds scrollbar */
-  width: 100vw;
-  text-decoration: none;
+    flex-wrap: wrap;
+    padding: 0 18px;
+    justify-content: center;
+    height: calc(100% - 5em);
+    align-items: center;
+    overflow-y: scroll; /* adds scrollbar */
+    width: 100vw;
+    font-style: normal;
+    text-decoration: none;
   }
   
   .gamesL {
@@ -94,6 +95,7 @@
     padding: 0 18px;
     margin-top: 2em;
     justify-content: center;
+    font-style: normal;
     text-decoration: none;
   }
   
@@ -115,7 +117,6 @@
     align-items: center;
     font-style: normal;
     text-decoration: none;
-    transition: ease-in
   }
   
   .gameLINK:hover {
