@@ -85,6 +85,8 @@
     align-items: center;
     overflow-y: scroll; /* adds scrollbar */
     top: 5%;
+    width: 100vw;
+    position: relative;
   }
   
   .gamesL {
