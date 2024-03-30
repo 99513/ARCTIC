@@ -48,7 +48,7 @@
   }
   
   .navbar {
-    overflow: shown;
+    overflow: visible;
     background: transparent;
     border-radius: 0px 0px 15px 15px;
     position: relative; z-index:1;
