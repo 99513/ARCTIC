@@ -92,6 +92,7 @@
     padding: 0 18px;
     margin-top: 2em;
     justify-content: center;
+    z-index: 5;
   }
   
   .gameLINK {
