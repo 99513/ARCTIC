@@ -84,7 +84,7 @@
     height: calc(100% - 5em);
     align-items: center;
     overflow-y: scroll; /* adds scrollbar */
-    top: 5vh;
+    top: 5em;
   }
   
   .gamesL {
