@@ -81,10 +81,10 @@
     flex-wrap: wrap;
     padding: 0 18px;
     justify-content: center;
-    height: calc(100% - 2.5vh);
+    height: calc(100% - 25px);
     align-items: center;
     overflow-y: scroll; /* adds scrollbar */
-    top: 2.5vh;
+    top: 25px;
     width: 100vw;
     position: relative;
   }
