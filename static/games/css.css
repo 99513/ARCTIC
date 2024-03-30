@@ -76,7 +76,7 @@
 
 
 
-.games {
+  .games {
     display: flex;
     flex-wrap: wrap;
     padding: 0 18px;
@@ -166,8 +166,3 @@
     padding: 6px 0 12px 0;
     z-index: 99;
   }
-
-  
-
-
-  
