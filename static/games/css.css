@@ -84,7 +84,7 @@
     height: 100%;
     align-items: center;
     overflow-y: scroll; /* adds scrollbar */
-    top: 25px;
+    top: 5px;
     width: 100vw;
     position: relative;
   }
