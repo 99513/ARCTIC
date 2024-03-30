@@ -84,6 +84,7 @@
     height: calc(100% - 5em);
     align-items: center;
     overflow-y: scroll; /* adds scrollbar */
+    position: relative; z-index:1;
   }
   
   .gamesL {
@@ -94,6 +95,7 @@
     justify-content: center;
     position: relative;
     z-index: 5;
+    position: relative; z-index:1;
   }
   
   .gameLINK {
@@ -114,7 +116,7 @@
     align-items: center;
     font-style: normal;
     text-decoration: none;
-
+    position: relative; z-index:1;
   }
   
   .gameLINK:hover {
