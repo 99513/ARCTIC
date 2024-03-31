@@ -105,13 +105,13 @@
   .gameLINK {
     display: grid;
     justify-items: center;
-    width: 14em;
+    width: 8em;
     height: min-content;
     background-color: #ffffff;
     padding: 0;
     margin: 0;
     align-content: center;
-    background-size: 14em;
+    background-size: 8em;
     border-radius: 10px;
     margin-right: 15px;
     margin-bottom: 15px;
@@ -124,32 +124,11 @@
     -moz-box-shadow: 0 0 5px black; 
     box-shadow:0 0 5px black;
   }
-  
-  
-  .gameLINK:hover {
-    display: grid;
-    justify-items: center;
-    width: 14em;
-    height: min-content;
-    background-color: #ffffff;
-    padding: 0;
-    margin: 0;
-    align-content: center;
-    background-size: 14em;
-    border-radius: 10px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    overflow: hidden;
-    user-select: none;
-    align-items: center;
-    cursor: pointer;
-    font-style: normal;
-    text-decoration: none;
-  }
+
   
   .thumbnail {
-    height: 14em;
-    width: 14em;
+    height: 8em;
+    width: 8em;
   }
   
   .title {
