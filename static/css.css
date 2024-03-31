@@ -144,13 +144,3 @@
     padding: 6px 0 12px 0;
     z-index: 99;
   }
-
-    #game-iframe{
-    position: absolute;
-    width: 100%;
-    height: calc(100 - 5vh);
-    border: none;
-    left: 0;
-    top: 5vh;
-    overflow: hidden;
-    }
